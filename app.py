@@ -1,4 +1,5 @@
 import hashlib
 
-msg = hashlib.md5(b"hello  world").digest()
-print(msg)
+def hash(msg):
+    return hashlib.md5(msg).digest()
+print(hash (b"hello world"))
