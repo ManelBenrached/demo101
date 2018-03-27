@@ -1,4 +1,4 @@
 import hashlib
 
-msg = hashlib.sha512(b"hello  world").digest()
+msg = hashlib.md5(b"hello  world").digest()
 print(msg)
